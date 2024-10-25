@@ -6,8 +6,28 @@
     <title>ENDLESS - Game</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* 确保视频覆盖整个背景 */
+        #background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1000;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
+    <!-- 添加背景视频 -->
+    <video autoplay muted loop id="background-video">
+        <source src="https://upos-sz-mirrorali.bilivideo.com/upgcxcode/73/13/1012361373/1012361373-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1729864570&gen=playurlv2&os=alibv&oi=2005178945&trid=3b91082b73a44395ad2089f14a9cb8adh&mid=1725717832&platform=html5&og=hw&upsig=e02763bd4dd76cc1aae5febe3b89067f&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,mid,platform,og&bvc=vod&nettype=0&f=h_0_0&bw=49419&logo=80000000" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
     <div class="loader">
         <div class="loader-content">
             <div class="loader-line"></div>
@@ -94,7 +114,7 @@
             <div class="footer-section">
                 <h3>Follow us</h3>
                 <div class="social-icons">
-                    <a href="#" class="social-icon"><i class="fab fa-bilibili"></i></a>
+                    <a href="https://space.bilibili.com/1725717832?" class="social-icon"><i class="fab fa-bilibili"></i></a>
                     <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
                 </div>
